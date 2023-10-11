@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+html{
+    font-size: 20px;
+    text-align: center;
+}
+
+body{
+    font-family: "Arial", "Meiryo", sans-serif;
+}
+
+h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2rem;
+    letter-spacing: 1.2rem;
+    text-shadow: 10px 10px #ff0000;
+    border-bottom: solid 3px rgb(115, 115, 114);
+}
+
+.sky_blue{
+    color:skyblue;
+}
+
+.pink{
+    color:rgb(255, 192, 203);
+}
+
+#basic p:first-of-type,#basic p:nth-of-type(2),#basic p:nth-of-type(3){
+    font-weight: bold;
+}
