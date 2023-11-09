@@ -22,8 +22,7 @@ PC用のスタイル
 
     header {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: space-between;
     }
 
     #nav-pc {
@@ -85,7 +84,7 @@ PC用のスタイル
     }
 
     #main-message>p {
-        font-size: 20px;
+        font-size: 28px;
         margin: 0 0 0 50px;
     }
 
@@ -243,7 +242,6 @@ PC用のスタイル
 
     /* 3つの組織文化の表 */
     .culture-table {
-        max-width: 500px;
         margin-right: 50px;
     }
 
@@ -633,7 +631,7 @@ PC用のスタイル
         left: 0;
         width: 450px;
         margin: 0 40px 30px 0;
-        border-radius: 0 0 432px 0;
+        border-radius: 0 432px 0 0;
     }
 
     .product-section1>div {
@@ -648,7 +646,7 @@ PC用のスタイル
         right: 0;
         width: 450px;
         margin: 0 0 30px 40px;
-        border-radius: 0 0 0 432px;
+        border-radius:432px 0 0 0;
     }
 
     .product-section2>div {
